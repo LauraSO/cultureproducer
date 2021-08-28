@@ -1,25 +1,67 @@
-  <div id="myCarousel" class="carousel slide " data-bs-ride="carousel">
+   <style>
+      #fondoTrasparente {
+        background:url(img/tabu.png) no-repeat left center;
+        background-size: cover;
+        border-radius: 15% 5% 15% 5%;
+        opacity:.5; 
+         z-index: 1;
+         position: absolute;
+         width: 120%;
+      height: 98%;
+       top: 0px;
+      left: 0px;
+     margin-top: 6%;
+      margin-left:-10%;
+       margin-right:0%;
+      }
+
+      
+#text {
+  position: relative;
+   z-index: 5;
+ margin-left:1%;
+ margin-top: 2%;
+   margin-bottom:-5%;
+}
+
+@media screen and (max-width: 980px) {
+div#imagenTabu {
+display: none;
+}
+}
+      
+
+    </style>
+
+
+  <div id="myCarousel" class="carousel slide " data-bs-ride="carousel ">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <div class="carousel-inner  " style="border-radius: 15% 5% 15% 5%;">
+    <div class="carousel-inner" style="border-radius: 15% 5% 15% 5%;">
       <div class="carousel-item active">
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" ><rect width="100%" height="100%" fill="#7D3C98"/></svg>
 
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <div class="row">
-              <div class="col">  
-              <h1>Ciclo Tabu</h1>
+        <div  class="container" style="position: relative;" >
+          <div class="carousel-caption text-start" >
+            
+               
+              <div  id="text"  class="row" >
+              <div class="col" style=" margin-top: 5%; " >  
+              <h1  >Ciclo Tabu</h1>
               <p>Descripcion breve de Tabu</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Ver Galeria </a></p>
+              <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. 
+              </p>
+              <p><a class="btn btn-lg btn-primary " href="#">Ver Galeria </a></p>
             </div>
-              <div class="col">
+               <div id="imagenTabu" class="col" style="margin-top: 10%; opacity: 0.8;" >
                <img src="img/tabu.png" style="max-height: 80%; max-width: 80%"> 
-              </div>  
-          </div>
+              </div> 
+            </div>
+
+             <div  id="fondoTrasparente"  > </div>
         </div>
       </div>
       </div>
@@ -30,6 +72,8 @@
           <div class="carousel-caption">
             <h1>Vegan Power</h1>
             <p>Descripcion breve de Vegan Power.</p>
+            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. 
+              </p>
             <p><a class="btn btn-lg btn-primary" href="#">Ver Galeria</a></p>
           </div>
         </div>
@@ -41,6 +85,8 @@
           <div class="carousel-caption text-end">
             <h1>Eventos Cabina Abieta.</h1>
             <p>Descripcion breve de Eventos Cabina Abierta</p>
+            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. 
+              </p>
             <p><a class="btn btn-lg btn-primary" href="#">Ver Galeria</a></p>
           </div>
         </div>

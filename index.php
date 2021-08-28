@@ -59,7 +59,7 @@
             <a  class="nav-link " type="button" aria-current="page" id="btncontacto" href="#">Nuestro Equipo</a>
           </li>
          <li class="nav-item">
-            <a  class="nav-link " type="button" aria-current="page" id="btncontacto" href="#">Contactanos</a>
+            <a  class="nav-link " type="button" aria-current="page" id="btn3" href="#">Contactanos</a>
           </li>
         </ul>
      
