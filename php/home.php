@@ -3,7 +3,7 @@
         background:url(img/tabu.png) no-repeat left center;
         background-size: cover;
         border-radius: 15% 5% 15% 5%;
-        opacity:.5; 
+        opacity:.8; 
          z-index: 1;
          position: absolute;
          width: 120%;
@@ -14,6 +14,38 @@
       margin-left:-10%;
        margin-right:0%;
       }
+        #fondoTrasparente2 {
+        background:url(img/veganpower.jpg) no-repeat left center;
+        background-size: cover;
+        border-radius: 15% 5% 15% 5%;
+        opacity:.8; 
+         z-index: 1;
+         position: absolute;
+         width: 120%;
+      height: 130%;
+       top: 0px;
+      left: 0px;
+     margin-top: -10%;
+      margin-left:-10%;
+       margin-right:0%;
+      }
+       #fondoTrasparente3 {
+        background:url(img/cabinaabierta2.jpg) no-repeat left center;
+        background-size: cover;
+        border-radius: 15% 5% 15% 5%;
+        opacity:.8; 
+         z-index: 1;
+         position: absolute;
+         width: 120%;
+      height: 130%;
+       top: 0px;
+      left: 0px;
+     margin-top: -10%;
+      margin-left:-10%;
+       margin-right:0%;
+      }
+
+
 
       
 #text {
@@ -22,12 +54,15 @@
  margin-left:1%;
  margin-top: 2%;
    margin-bottom:-5%;
+
 }
 
 @media screen and (max-width: 980px) {
 div#imagenTabu {
 display: none;
 }
+
+   
 }
       
 
@@ -68,26 +103,33 @@ display: none;
       <div class="carousel-item">
         <svg class="bd-placeholder-img " width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%"  fill="#932991"/></svg>
 
-        <div class="container">
+        <div class="container" style="position: relative;" >
           <div class="carousel-caption">
+             <div  id="text"  class="row" >
             <h1>Vegan Power</h1>
             <p>Descripcion breve de Vegan Power.</p>
             <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. 
               </p>
             <p><a class="btn btn-lg btn-primary" href="#">Ver Galeria</a></p>
+             </div>
+             <div  id="fondoTrasparente2"  > </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#7D3C98"/></svg>
 
-        <div class="container">
+        <div class="container"  style="position: relative;">
           <div class="carousel-caption text-end">
+            <div  id="text"  class="row" >
             <h1>Eventos Cabina Abieta.</h1>
             <p>Descripcion breve de Eventos Cabina Abierta</p>
             <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. 
               </p>
             <p><a class="btn btn-lg btn-primary" href="#">Ver Galeria</a></p>
+             </div>
+              <div  id="fondoTrasparente3"  > </div>
+          </div>
           </div>
         </div>
       </div>
