@@ -19,6 +19,8 @@
 <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
+  
+    
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -40,9 +42,9 @@
   </head>
   <body>
     
-<header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
+<header >
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="padding-bottom: 2px;">
+    <div class="container-fluid" style="padding-bottom: 2px; ">
       <a class="navbar-brand" id="btnhome" href="#">CultureProucer</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

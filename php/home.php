@@ -69,15 +69,15 @@ display: none;
     </style>
 
 
-  <div id="myCarousel" class="carousel slide " data-bs-ride="carousel ">
+  <div id="myCarousel" class="carousel slide " data-bs-ride="carousel "  >
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <div class="carousel-inner" style="border-radius: 15% 5% 15% 5%;">
+    <div class="carousel-inner" style="border-radius: 15% 5% 15% 5%;box-shadow: 1px 2px 5px 5px #B68FE7;">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" ><rect width="100%" height="100%" fill="#7D3C98"/></svg>
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" ><rect width="100%" height="100%" fill="#7D3C98" opacity="0.8"/></svg>
 
         <div  class="container" style="position: relative;" >
           <div class="carousel-caption text-start" >
