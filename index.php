@@ -14,7 +14,7 @@
  <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
 
-   
+
     <!-- Bootstrap core CSS -->
 <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -43,25 +43,25 @@
   <body>
     
 <header >
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="padding-bottom: 2px;">
-    <div class="container-fluid" style="padding-bottom: 2px; ">
-      <a class="navbar-brand" id="btnhome" href="#">CultureProucer</a>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="color: #C0C0C0;"  >
+    <div class="container-fluid" >
+      <a class="navbar-brand" id="btnhome" href="#"><img src="img/logo11.png" style="margin-top: -15%; margin-right: -10%; margin-bottom: -7%"  ></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="collapse navbar-collapse" id="navbarCollapse" >
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a  class="nav-link " type="button" aria-current="page" id="btnquienessomos" href="#">Quienes Somos</a>
+            <a  class="nav-link " type="button" aria-current="page" id="btnquienessomos" href="#">¿Quiénes somos?</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Proximos Eventos</a>
+            <a class="nav-link" href="#">Próximos Eventos</a>
           </li>
           <li class="nav-item">
             <a  class="nav-link " type="button" aria-current="page" id="btncontacto" href="#">Nuestro Equipo</a>
           </li>
          <li class="nav-item">
-            <a  class="nav-link " type="button" aria-current="page" id="btn3" href="#">Contactanos</a>
+            <a  class="nav-link " type="button" aria-current="page" id="btn3" href="#">Contáctanos</a>
           </li>
         </ul>
      
@@ -73,15 +73,15 @@
 <main>
 
 
+<div id="tabla" class="container-fluid">
+</div>
 
 
-<div id="resultado" style="margin: 1%;" >
+<div id="resultado"  >
 
 
    
 </div>
-
-
   <script>
 
     $.ajaxSetup ({  
@@ -89,18 +89,22 @@
       });
     $( document ).ready(function() {
 
-   var loadUrl = "php/home.php"; // paso parametro accion e id
-      $("#resultado").load(loadUrl); // ejecuto
+  var loadUrl = "php/home.php"; // paso parametro accion e id
+
+      $("#tabla").load(loadUrl); // ejecuto
     
  $("#btnhome").click(function(){
-
+       $("#tabla").show();
+       $("#resultado").hide();
       var loadUrl = "php/home.php"; // paso parametro accion e id
-      $("#resultado").load(loadUrl); // ejecuto
+      $("#tabla").load(loadUrl); // ejecuto
       }); 
 
 
    $("#btnquienessomos").click(function(){
 
+      $("#tabla").hide();
+       $("#resultado").show();
       var loadUrl = "php/quienessomos.php"; // paso parametro accion e id
       $("#resultado").load(loadUrl); // ejecuto
       }); 

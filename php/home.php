@@ -156,21 +156,21 @@ display: none;
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#932991"/><text x="50%" y="50%" fill="#932991" dy=".3em">140x140</text></svg>
 
-        <h2>Evento Destacado1</h2>
-        <p>Descripcion Evento1</p>
-        <p><a class="btn btn-secondary" href="#">Ver Mas &raquo;</a></p>
+        <h2>Radio TABU</h2>
+        <p>Viernes 18hs</p>
+        <p><a class="btn btn-secondary" href="#">ESCUCHANOS &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#7D3C98"/><text x="50%" y="50%" fill="#7D3C98" dy=".3em">140x140</text></svg>
 
-        <h2>Evento Destacado2</h2>
+        <h2>Cápsula TWISTED TABU x CVSC</h2>
         <p>Descripcion Evento.</p>
         <p><a class="btn btn-secondary" href="#">Ver Mas &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#932991"/><text x="50%" y="50%" fill="#932991" dy=".3em">140x140</text></svg>
 
-        <h2>Evento Destacado3</h2>
+        <h2>PORTFOLIO</h2>
         <p>Descripcion Evento.</p>
         <p><a class="btn btn-secondary" href="#">Ver Mas&raquo;</a></p>
       </div><!-- /.col-lg-4 -->
